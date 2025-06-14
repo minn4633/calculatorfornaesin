@@ -1,0 +1,19 @@
+<h2>내신 계산기</h2>
+
+<label>전체 수강 인원 수:
+  <input type="number" id="totalStudents" />
+</label>
+<button onclick="calculateGrades()">등급별 인원 계산</button>
+
+<div id="gradeDistribution"></div>
+
+<hr>
+
+<h3>과목별 등급 입력</h3>
+<div id="subjects">
+  <!-- 과목 입력창이 여기에 추가됨 -->
+</div>
+<button onclick="addSubject()">과목 추가하기</button>
+<button onclick="calculateAverage()">평균 등급 계산</button>
+
+<p id="averageResult"></p>

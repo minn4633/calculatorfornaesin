@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  background-color: #f9f9f9;
+}
+
+input {
+  margin: 5px;
+  padding: 5px;
+  width: 150px;
+}
+
+button {
+  margin: 5px 5px 15px 0;
+  padding: 5px 10px;
+}
+
+#gradeDistribution ul {
+  padding-left: 20px;
+}
+
+#averageResult {
+  font-weight: bold;
+  color: #2c3e50;
+}
